@@ -1,0 +1,135 @@
+body{
+background-color: #2f2f2f !important;
+
+}
+header{
+	text-align: center;
+}
+h1{
+	color:white !important;
+} 
+#pokedex{
+	margin: 0 auto; 
+	background-image: url("../images/Pokedex.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+
+
+}
+#left{
+	width: 34.4%;
+    height: 280px;
+    float: left;
+    margin-top: 128px;
+    margin-left: 25px;
+    background-color: red;
+}
+#right{
+	width: 31.2%;
+    height: 311px;
+    background-color: blue;
+    float: right;
+    margin-top: 133px;
+    margin-right: 163px;
+    border-radius: 4px;
+}
+#control{
+    width: 98%;
+    height: 15%;
+    background-color: gray;
+    float: left;
+    margin-top: 85%;
+    margin-left: 3px;
+    border-radius: 10px;
+ }
+
+ #up{
+	background-image: url("../images/up_arrow.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 90%;
+    width: 13%;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+
+
+}
+
+#down{
+	background-image: url("../images/down_arrow.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 90%;
+    width: 13%;
+	overflow: hidden;
+	float:left;
+    margin-right: 5px;
+    margin-top: 2px;
+
+
+}
+#up:hover{
+	background-image: url("../images/up_arrow_hover.png");
+
+}
+#down:hover{
+	background-image: url("../images/down_arrow_hover.png");
+
+}
+#search{
+	height: 100%; width: 15%;
+	overflow: hidden;
+	float:left;
+	margin-left: 2px;
+
+}
+.glyphicon{
+	font-size: 30px;
+	margin-top: 5px;
+	top:0px !important;
+}
+.custom-glyph-color{
+    color:#fff;       /* change  magnifying glass color in  button */
+}
+
+.custom-glyph-color:hover{
+    color:rgb(74,74,74);         /* change  magnifying glass color in  button on mouse hover */
+}
+
+
+#number{
+	height: 100%; 
+	width: 50%;
+	overflow: hidden;
+	float:left;
+}
+#numberDown{
+	height: 100%; 
+	width: 30%;
+	overflow: hidden;
+	float:left;
+	border-radius: 50%;
+}
+.glyphicon-minus {
+    margin-left: -4px;
+}
+#numberSpinner{
+	height: 100%; 
+	width: 40%;
+	overflow: hidden;
+	float:left;
+	border-radius: 15px;
+	margin-top: 5px
+}
+#numberUp{
+	height: 100%; 
+	width: 30%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+
