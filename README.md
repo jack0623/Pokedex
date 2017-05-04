@@ -1,2 +1,2 @@
-# todo-list
-Persistent todo list
+# Pokedex
+Gotta Watch them all!
